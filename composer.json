@@ -10,11 +10,5 @@
     "phpmd/phpmd": "dev-master",
     "phploc/phploc": "2.0.*@dev",
     "sebastian/phpcpd": "2.0.*@dev"
-  },
-  "config": {
-    "bin-dir": "bin"
-  },
-  "autoload": {
-    "psr-0": {"PDepend\\": "src/main/php/"}
   }
 }
