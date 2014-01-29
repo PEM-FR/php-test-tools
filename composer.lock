@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "35de65a258ec7c0cb06182739dcf2b69",
+    "hash": "c4a45233b0773f76d918164b40ad2e1f",
     "packages": [
         {
             "name": "pdepend/pdepend",
@@ -684,12 +684,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "5fecc5d5b58ea3fc6e749ee07d6baeaab8f66784"
+                "reference": "7665bfb4d8a91d2689fb34682494b64026e3d473"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/5fecc5d5b58ea3fc6e749ee07d6baeaab8f66784",
-                "reference": "5fecc5d5b58ea3fc6e749ee07d6baeaab8f66784",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/7665bfb4d8a91d2689fb34682494b64026e3d473",
+                "reference": "7665bfb4d8a91d2689fb34682494b64026e3d473",
                 "shasum": ""
             },
             "require": {
@@ -746,7 +746,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2014-01-23 20:30:15"
+            "time": "2014-01-29 02:31:53"
         },
         {
             "name": "symfony/config",
