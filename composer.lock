@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "2f78ffcf876c952ad134ec1f6edbe94f",
+    "hash": "f8da6d418a3e27c63d7ed33553dce373",
     "packages": [
         {
             "name": "covex-nn/phpcb",

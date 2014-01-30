@@ -10,6 +10,6 @@
     "phpmd/phpmd": "1.5.*",
     "phploc/phploc": "*",
     "sebastian/phpcpd": "*",
-    "covex-nn/phpcb": "1.0.*"
+    "covex-nn/phpcb": "*"
   }
 }
