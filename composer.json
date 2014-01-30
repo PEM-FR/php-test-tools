@@ -9,6 +9,7 @@
     "squizlabs/php_codesniffer": "1.4.5",
     "phpmd/phpmd": "1.5.*",
     "phploc/phploc": "*",
-    "sebastian/phpcpd": "*"
+    "sebastian/phpcpd": "*",
+    "covex-nn/phpcb": "1.0.*"
   }
 }
