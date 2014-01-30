@@ -5,11 +5,11 @@
   "minimum-stability": "dev",
   "require": {
     "phpunit/phpunit": "3.7.*",
-    "pdepend/pdepend": "1.1.1",
-    "squizlabs/php_codesniffer": "1.4.5",
+    "pdepend/pdepend": "1.1.*",
+    "squizlabs/php_codesniffer": "1.4.*",
     "phpmd/phpmd": "1.5.*",
-    "phploc/phploc": "*",
-    "sebastian/phpcpd": "*",
-    "covex-nn/phpcb": "*"
+    "phploc/phploc": "2.0.*",
+    "sebastian/phpcpd": "2.0.*",
+    "covex-nn/phpcb": "1.0.*"
   }
 }
