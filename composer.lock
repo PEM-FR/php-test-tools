@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "254cc820c8c51ef63947ef7c6749e317",
+    "hash": "288c19ce52ad5583f2b515ba890f643b",
     "packages": [
         {
             "name": "covex-nn/phpcb",
@@ -52,6 +52,51 @@
             "time": "2013-11-12 21:58:07"
         },
         {
+            "name": "nikic/php-parser",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nikic/PHP-Parser.git",
+                "reference": "6f36a88993a07d0ccd52d813ceff27de022429c3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/6f36a88993a07d0ccd52d813ceff27de022429c3",
+                "reference": "6f36a88993a07d0ccd52d813ceff27de022429c3",
+                "shasum": ""
+            },
+            "require": {
+                "ext-tokenizer": "*",
+                "php": ">=5.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.9-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "PHPParser": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nikita Popov"
+                }
+            ],
+            "description": "A PHP parser written in PHP",
+            "keywords": [
+                "parser",
+                "php"
+            ],
+            "time": "2014-01-24 19:27:42"
+        },
+        {
             "name": "pdepend/pdepend",
             "version": "1.1.3",
             "source": {
@@ -90,12 +135,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phploc.git",
-                "reference": "2b3d3f4105cb16f78f5bdd77216b992dade053d0"
+                "reference": "06c1acd873819a3d042185ea1a4d35456bc81817"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phploc/zipball/2b3d3f4105cb16f78f5bdd77216b992dade053d0",
-                "reference": "2b3d3f4105cb16f78f5bdd77216b992dade053d0",
+                "url": "https://api.github.com/repos/sebastianbergmann/phploc/zipball/06c1acd873819a3d042185ea1a4d35456bc81817",
+                "reference": "06c1acd873819a3d042185ea1a4d35456bc81817",
                 "shasum": ""
             },
             "require": {
@@ -132,7 +177,7 @@
             ],
             "description": "A tool for quickly measuring the size of a PHP project.",
             "homepage": "https://github.com/sebastianbergmann/phploc",
-            "time": "2013-12-18 08:31:50"
+            "time": "2014-02-02 22:36:24"
         },
         {
             "name": "phpmd/phpmd",
@@ -170,18 +215,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "6f5fe28389462fbfe9420ddbcc734be4691424f5"
+                "reference": "6ba4ed2895d538a039d5d5866edc4ec0424c7852"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/6f5fe28389462fbfe9420ddbcc734be4691424f5",
-                "reference": "6f5fe28389462fbfe9420ddbcc734be4691424f5",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/6ba4ed2895d538a039d5d5866edc4ec0424c7852",
+                "reference": "6ba4ed2895d538a039d5d5866edc4ec0424c7852",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3",
                 "phpunit/php-file-iterator": ">=1.3.0@stable",
-                "phpunit/php-text-template": ">=1.1.1@stable",
+                "phpunit/php-text-template": ">=1.2.0@stable",
                 "phpunit/php-token-stream": ">=1.1.3@stable"
             },
             "require-dev": {
@@ -223,7 +268,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2014-01-25 07:52:49"
+            "time": "2014-02-03 07:44:47"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -276,12 +321,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-text-template.git",
-                "reference": "1eeef106193d2f8c539728e566bb4793071a9e18"
+                "reference": "206dfefc0ffe9cebf65c413e3d0e809c82fbf00a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-text-template/zipball/1eeef106193d2f8c539728e566bb4793071a9e18",
-                "reference": "1eeef106193d2f8c539728e566bb4793071a9e18",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-text-template/zipball/206dfefc0ffe9cebf65c413e3d0e809c82fbf00a",
+                "reference": "206dfefc0ffe9cebf65c413e3d0e809c82fbf00a",
                 "shasum": ""
             },
             "require": {
@@ -312,7 +357,7 @@
             "keywords": [
                 "template"
             ],
-            "time": "2013-01-07 10:56:17"
+            "time": "2014-01-30 17:20:04"
         },
         {
             "name": "phpunit/php-timer",
@@ -414,12 +459,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "31d9d069c79c61abd22f713292baed9cf3d0b0a1"
+                "reference": "2f33258fa5a0c330515b7deba2bc040fa5c3953b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/31d9d069c79c61abd22f713292baed9cf3d0b0a1",
-                "reference": "31d9d069c79c61abd22f713292baed9cf3d0b0a1",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/2f33258fa5a0c330515b7deba2bc040fa5c3953b",
+                "reference": "2f33258fa5a0c330515b7deba2bc040fa5c3953b",
                 "shasum": ""
             },
             "require": {
@@ -480,7 +525,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2014-01-30 08:22:37"
+            "time": "2014-01-31 08:54:33"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -488,12 +533,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
-                "reference": "c9d44561ac41ab2dddf251c471998f8fc370b6c9"
+                "reference": "ed9c8ef8cecd7fa0e7dcee78970e5a972bcfd751"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/c9d44561ac41ab2dddf251c471998f8fc370b6c9",
-                "reference": "c9d44561ac41ab2dddf251c471998f8fc370b6c9",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/ed9c8ef8cecd7fa0e7dcee78970e5a972bcfd751",
+                "reference": "ed9c8ef8cecd7fa0e7dcee78970e5a972bcfd751",
                 "shasum": ""
             },
             "require": {
@@ -537,7 +582,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2014-01-26 15:45:02"
+            "time": "2014-01-30 16:40:39"
         },
         {
             "name": "sebastian/finder-facade",
@@ -788,12 +833,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console.git",
-                "reference": "47e82eadf64a81e0a778c7249c7292987f1bfcff"
+                "reference": "ce1d9d51cbb9f7c5d8b7b43ab93673cda4f2e5bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/47e82eadf64a81e0a778c7249c7292987f1bfcff",
-                "reference": "47e82eadf64a81e0a778c7249c7292987f1bfcff",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/ce1d9d51cbb9f7c5d8b7b43ab93673cda4f2e5bd",
+                "reference": "ce1d9d51cbb9f7c5d8b7b43ab93673cda4f2e5bd",
                 "shasum": ""
             },
             "require": {
@@ -832,7 +877,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "http://symfony.com",
-            "time": "2014-01-24 14:36:35"
+            "time": "2014-02-03 17:15:42"
         },
         {
             "name": "symfony/finder",
@@ -929,6 +974,48 @@
             "time": "2014-01-07 13:29:57"
         },
         {
+            "name": "theseer/directoryscanner",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/theseer/DirectoryScanner.git",
+                "reference": "e4f3c1f9a9a4eba238679e55d96cd623fca9c57a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/theseer/DirectoryScanner/zipball/e4f3c1f9a9a4eba238679e55d96cd623fca9c57a",
+                "reference": "e4f3c1f9a9a4eba238679e55d96cd623fca9c57a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Arne Blankerts",
+                    "email": "arne@blankerts.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A recursive directory scanner and filter",
+            "time": "2013-12-20 20:38:04"
+        },
+        {
             "name": "theseer/fdomdocument",
             "version": "1.4.3",
             "source": {
@@ -961,12 +1048,244 @@
                 {
                     "name": "Arne Blankerts",
                     "email": "arne@blankerts.de",
-                    "role": "lead"
+                    "role": "Developer"
                 }
             ],
             "description": "The classes contained within this repository extend the standard DOM to use exceptions at all occasions of errors instead of PHP warnings or notices. They also add various custom methods and shortcuts for convenience and to simplify the usage of DOM.",
             "homepage": "https://github.com/theseer/fDOMDocument",
             "time": "2013-12-20 21:32:08"
+        },
+        {
+            "name": "theseer/fxsl",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/theseer/fXSL.git",
+                "reference": "4445de44efe6f329af83d00f02d4a56f81d07c5d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/theseer/fXSL/zipball/4445de44efe6f329af83d00f02d4a56f81d07c5d",
+                "reference": "4445de44efe6f329af83d00f02d4a56f81d07c5d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-libxml": "*",
+                "ext-xsl": "*",
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Arne Blankerts",
+                    "email": "arne@blankerts.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "An XSL wrapper / extension to the PHP 5.x XSLTProcessor with Exception and extended Callback support",
+            "time": "2014-02-05 20:32:34"
+        },
+        {
+            "name": "theseer/phpdox",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/theseer/phpdox.git",
+                "reference": "f84e35cfaf3d85a17f7d10f1b73502a33c7358f0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/theseer/phpdox/zipball/f84e35cfaf3d85a17f7d10f1b73502a33c7358f0",
+                "reference": "f84e35cfaf3d85a17f7d10f1b73502a33c7358f0",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-fileinfo": "*",
+                "ext-iconv": "*",
+                "ext-mbstring": "*",
+                "ext-tokenizer": "*",
+                "ext-xsl": "*",
+                "nikic/php-parser": ">=0.9.4",
+                "php": ">=5.3.3",
+                "phpunit/php-timer": ">=1.0.4",
+                "theseer/directoryscanner": ">=1.2.1",
+                "theseer/fdomdocument": ">=1.4.1",
+                "theseer/fxsl": ">=1.1",
+                "zetacomponents/base": ">=1.8.0",
+                "zetacomponents/console-tools": ">=1.6.0"
+            },
+            "bin": [
+                "composer/bin/phpdox"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.5.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Arne Blankerts",
+                    "email": "arne@blankerts.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A fast Documentation generator for PHP Code using standard technology (SRC, DOCBLOCK, XML and XSLT) with event based processing",
+            "time": "2014-02-05 20:36:44"
+        },
+        {
+            "name": "zetacomponents/base",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zetacomponents/Base.git",
+                "reference": "642f63a8a72c32996f1aaf8a317fdf746bc32ce7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zetacomponents/Base/zipball/642f63a8a72c32996f1aaf8a317fdf746bc32ce7",
+                "reference": "642f63a8a72c32996f1aaf8a317fdf746bc32ce7",
+                "shasum": ""
+            },
+            "require-dev": {
+                "zetacomponents/unit-test": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sergey Alexeev"
+                },
+                {
+                    "name": "Sebastian Bergmann"
+                },
+                {
+                    "name": "Jan Borsodi"
+                },
+                {
+                    "name": "Raymond Bosman"
+                },
+                {
+                    "name": "Frederik Holljen"
+                },
+                {
+                    "name": "Kore Nordmann"
+                },
+                {
+                    "name": "Derick Rethans"
+                },
+                {
+                    "name": "Vadym Savchuk"
+                },
+                {
+                    "name": "Tobias Schlitt"
+                },
+                {
+                    "name": "Alexandru Stanoi"
+                }
+            ],
+            "description": "The Base package provides the basic infrastructure that all packages rely on. Therefore every component relies on this package.",
+            "homepage": "https://github.com/zetacomponents",
+            "time": "2012-05-21 11:21:36"
+        },
+        {
+            "name": "zetacomponents/console-tools",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zetacomponents/ConsoleTools.git",
+                "reference": "90156abef01e4215fda8b9740f77c322f126fb02"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zetacomponents/ConsoleTools/zipball/90156abef01e4215fda8b9740f77c322f126fb02",
+                "reference": "90156abef01e4215fda8b9740f77c322f126fb02",
+                "shasum": ""
+            },
+            "require": {
+                "zetacomponents/base": "*"
+            },
+            "require-dev": {
+                "zetacomponents/unit-test": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sergey Alexeev"
+                },
+                {
+                    "name": "Sebastian Bergmann"
+                },
+                {
+                    "name": "Jan Borsodi"
+                },
+                {
+                    "name": "Raymond Bosman"
+                },
+                {
+                    "name": "Frederik Holljen"
+                },
+                {
+                    "name": "Kore Nordmann"
+                },
+                {
+                    "name": "Derick Rethans"
+                },
+                {
+                    "name": "Vadym Savchuk"
+                },
+                {
+                    "name": "Tobias Schlitt"
+                },
+                {
+                    "name": "Alexandru Stanoi"
+                }
+            ],
+            "description": "A set of classes to do different actions with the console (also called shell). It can render a progress bar, tables and a status bar and contains a class for parsing command line options.",
+            "homepage": "https://github.com/zetacomponents",
+            "time": "2012-05-21 09:55:34"
         }
     ],
     "packages-dev": [
@@ -976,9 +1295,9 @@
 
     ],
     "minimum-stability": "dev",
-    "stability-flags": [
-
-    ],
+    "stability-flags": {
+        "theseer/phpdox": 20
+    },
     "platform": [
 
     ],
