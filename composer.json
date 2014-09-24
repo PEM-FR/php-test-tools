@@ -11,7 +11,12 @@
     "phploc/phploc": "2.0.*",
     "sebastian/phpcpd": "2.0.*",
     "covex-nn/phpcb": "1.0.*",
-    "theseer/phpdox": "0.5.*@dev",
-    "johnkary/phpunit-speedtrap": "dev-master"
+    "theseer/phpdox": "dev-master",
+    "johnkary/phpunit-speedtrap": "dev-master",
+    "behat/behat": "*",
+    "behat/mink": "*",
+    "behat/mink-extension": "*",
+    "behat/mink-goutte-driver": "*",
+    "behat/mink-sahi-driver": "*"
   }
 }
