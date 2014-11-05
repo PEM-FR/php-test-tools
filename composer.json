@@ -13,9 +13,9 @@
     "covex-nn/phpcb": "1.0.*@dev",
     "theseer/phpdox": "dev-master",
     "johnkary/phpunit-speedtrap": "dev-master",
-    "behat/behat": "3.0.*@dev",
+    "behat/behat": "2.5.*@dev",
     "behat/mink": "1.6.*@dev",
-    "behat/mink-extension": "dev-master",
+    "behat/mink-extension": "1.3.*@dev",
     "behat/mink-goutte-driver": "1.1.*@dev",
     "behat/mink-sahi-driver": "1.2.*@dev"
   }
