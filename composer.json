@@ -15,7 +15,7 @@
     "johnkary/phpunit-speedtrap": "dev-master",
     "behat/behat": "3.0.*@dev",
     "behat/mink": "1.6.*@dev",
-    "behat/mink-extension": "2.0.*@dev",
+    "behat/mink-extension": "dev-master",
     "behat/mink-goutte-driver": "1.1.*@dev",
     "behat/mink-sahi-driver": "1.2.*@dev"
   }

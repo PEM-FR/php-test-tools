@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "af4ac22a99eb4c055a2f27498fef595c",
+    "hash": "b5dc77b0bed1df13fbba8d6fe7bf43c9",
     "packages": [
         {
             "name": "behat/behat",
@@ -720,12 +720,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/RingPHP.git",
-                "reference": "e7c28f96c5ac12ab0e63412cfc15989756fcb964"
+                "reference": "f22848701c46f96f95a455e8659a0d4ea63e9084"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/RingPHP/zipball/e7c28f96c5ac12ab0e63412cfc15989756fcb964",
-                "reference": "e7c28f96c5ac12ab0e63412cfc15989756fcb964",
+                "url": "https://api.github.com/repos/guzzle/RingPHP/zipball/f22848701c46f96f95a455e8659a0d4ea63e9084",
+                "reference": "f22848701c46f96f95a455e8659a0d4ea63e9084",
                 "shasum": ""
             },
             "require": {
@@ -762,7 +762,7 @@
                     "homepage": "https://github.com/mtdowling"
                 }
             ],
-            "time": "2014-11-04 07:01:14"
+            "time": "2014-11-05 00:36:55"
         },
         {
             "name": "guzzlehttp/streams",
@@ -918,12 +918,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "7fbdb79a082f2ea899d7edbb37ab659d8f391708"
+                "reference": "a8ffc6fcfcbae268656c8acf1298e378ac1ee5f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/7fbdb79a082f2ea899d7edbb37ab659d8f391708",
-                "reference": "7fbdb79a082f2ea899d7edbb37ab659d8f391708",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/a8ffc6fcfcbae268656c8acf1298e378ac1ee5f1",
+                "reference": "a8ffc6fcfcbae268656c8acf1298e378ac1ee5f1",
                 "shasum": ""
             },
             "require": {
@@ -955,7 +955,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2014-11-03 15:16:15"
+            "time": "2014-11-04 22:12:46"
         },
         {
             "name": "pdepend/pdepend",
