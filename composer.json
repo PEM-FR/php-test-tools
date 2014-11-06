@@ -14,9 +14,11 @@
     "theseer/phpdox": "dev-master",
     "johnkary/phpunit-speedtrap": "dev-master",
     "behat/behat": "2.5.1",
-    "behat/mink": "1.5.0",
+    "behat/mink": "1.6.*",
     "behat/mink-extension": "1.3.x-dev",
-    "behat/mink-goutte-driver": "1.0.9",
-    "behat/mink-sahi-driver": "1.1.0"
+    "behat/mink-goutte-driver": "*",
+    "behat/mink-zombie-driver": "*",
+    "behat/mink-selenium2-driver": "*",
+    "behat/mink-sahi-driver": "*"
   }
 }
