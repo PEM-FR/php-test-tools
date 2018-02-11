@@ -1,7 +1,7 @@
 {
   "name": "pem-fr/php-test-tools",
   "description": "The classic php test tools all-in-one",
-  "license": "mit",
+  "license": "MIT",
   "minimum-stability": "dev",
   "require": {
     "phpunit/phpunit": ">=4.4.0@dev",
