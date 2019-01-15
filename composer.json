@@ -12,7 +12,7 @@
     "sebastian/phpcpd": ">=2.0.0@dev",
     "mayflower/php-codebrowser": ">=1.0.0@dev",
     "theseer/phpdox": "dev-master",
-    "johnkary/phpunit-speedtrap": "dev-master",
+    "johnkary/phpunit-speedtrap": ">=1.0",
     "behat/behat": ">=2.5.1",
     "behat/mink": ">=1.5.0",
     "behat/mink-extension": ">=1.3.x-dev",
