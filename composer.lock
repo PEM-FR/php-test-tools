@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d54cd959b6d71e4b1eb49c34870751fe",
+    "content-hash": "ef2723afb8ee5d8af92191b1179c3ca6",
     "packages": [
         {
             "name": "doctrine/instantiator",
@@ -63,31 +63,31 @@
         },
         {
             "name": "johnkary/phpunit-speedtrap",
-            "version": "v1.0.2",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnkary/phpunit-speedtrap.git",
-                "reference": "ad242a6e84b0d63d2e50832babad77d6d545bc0a"
+                "reference": "dae486f5bc009ae9000057f4d702e1e5add32263"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnkary/phpunit-speedtrap/zipball/ad242a6e84b0d63d2e50832babad77d6d545bc0a",
-                "reference": "ad242a6e84b0d63d2e50832babad77d6d545bc0a",
+                "url": "https://api.github.com/repos/johnkary/phpunit-speedtrap/zipball/dae486f5bc009ae9000057f4d702e1e5add32263",
+                "reference": "dae486f5bc009ae9000057f4d702e1e5add32263",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.6",
-                "phpunit/phpunit": ">=4.7"
+                "php": ">=7.1",
+                "phpunit/phpunit": "^7.0 || ^8.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "3.1-dev"
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "JohnKary": "src/"
+                "psr-4": {
+                    "JohnKary\\PHPUnit\\Listener\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -107,7 +107,7 @@
                 "profile",
                 "slow"
             ],
-            "time": "2017-02-13T15:22:35+00:00"
+            "time": "2019-02-24T02:58:04+00:00"
         },
         {
             "name": "mayflower/php-codebrowser",
@@ -2784,7 +2784,6 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "phpunit/phpunit": 20,
-        "squizlabs/php_codesniffer": 20,
         "phploc/phploc": 20,
         "sebastian/phpcpd": 20,
         "mayflower/php-codebrowser": 20
