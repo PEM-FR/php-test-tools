@@ -1,6 +1,8 @@
 php-test-tools
 ==============
 
+Package Version matches supported PHP versions
+
 All in one
 
 Contains dependencies to :
