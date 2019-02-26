@@ -12,7 +12,8 @@
     "sebastian/phpcpd": ">=2.0.0@dev",
     "mayflower/php-codebrowser": ">=1.0.0@dev",
     "theseer/phpdox": ">=0.11.2",
-    "johnkary/phpunit-speedtrap": ">=1.0"
+    "johnkary/phpunit-speedtrap": ">=1.0",
+    "php-coveralls/php-coveralls": ">=2.1.x-dev"
   },
   "config" : {
     "platform": {
