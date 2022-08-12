@@ -1,26 +1,44 @@
-====CHANGELOG
+# CHANGELOG
 
-With version 7.4, the following packages have been updated:
-- Updating symfony/polyfill-ctype (v1.13.0 => v1.13.1): Downloading (100%)         
-- Updating phpdocumentor/reflection-docblock (4.3.2 => 4.3.4): Downloading (100%)         
-- Updating phpspec/prophecy (1.9.0 => v1.10.2): Downloading (100%)         
-- Updating myclabs/deep-copy (1.9.3 => 1.9.5): Downloading (100%)         
-- Updating phpunit/phpunit (8.4.3 => 8.5.2): Downloading (100%)         
-- Updating squizlabs/php_codesniffer (3.5.2 => 3.5.4): Downloading (100%)         
-- Installing composer/xdebug-handler (1.4.0): Downloading (100%)         
-- Updating symfony/filesystem (v4.4.0 => v5.0.4): Downloading (100%)         
-- Updating symfony/config (v4.4.0 => v5.0.4): Downloading (100%)         
-- Updating symfony/service-contracts (v2.0.0 => v2.0.1): Downloading (100%)         
-- Updating symfony/dependency-injection (v4.4.0 => v5.0.4): Downloading (100%)         
-- Updating pdepend/pdepend (2.5.2 => 2.7.0): Downloading (100%)         
-- Updating phpmd/phpmd (2.7.0 => 2.8.1): Downloading (100%)         
-- Updating symfony/finder (v4.4.0 => v5.0.4): Downloading (100%)         
-- Updating sebastian/finder-facade (1.2.2 => 1.2.3): Downloading (100%)         
-- Updating symfony/polyfill-php73 (v1.13.0 => v1.13.1): Downloading (100%)         
-- Updating symfony/polyfill-mbstring (v1.13.0 => v1.13.1): Downloading (100%)         
-- Updating symfony/console (v4.4.0 => v4.4.4): Downloading (100%)         
-- Updating monolog/monolog (1.25.2 => 2.0.2): Downloading (100%)         
-- Updating mayflower/php-codebrowser (2.0 => 2.3.1): Downloading (100%)         
-- Updating guzzlehttp/guzzle (6.4.1 => 6.5.2): Downloading (100%)         
-- Updating symfony/stopwatch (v5.0.0 => v5.0.4): Downloading (100%)         
-- Updating symfony/yaml (v5.0.0 => v5.0.4): Downloading (100%)
+## [8.1.9.1] - 2022-08-12
+
+### Changed
+- chore: Update changelog
+
+<!-- Links -->
+[8.1.9.1]: https://github.com/PEM-FR/Repository/compare/v8.1.9..v8.1.9.1
+<br/>
+
+---
+
+<br/>
+
+## [8.1.9] - 2022-08-12
+### Changed
+- chore: johnkary/phpunit-speedtrap (v3.3.0 => v4.0.0)
+- chore: mayflower/php-codebrowser (2.4.0 => 3.0.0)
+- chore: pdepend/pdepend (2.9.1 => 2.10.3)
+- chore: php-coveralls/php-coveralls (v2.4.3 => v2.5.2)
+- chore: phpmd/phpmd (2.9.1 => 2.12.0)
+- chore: phpunit/php-code-coverage (9.2.6 => 9.2.15)
+- chore: phpunit/phpunit (9.5.4 => 9.5.21)
+- chore: squizlabs/php_codesniffer (3.6.0 => 3.7.1)
+
+<!-- Links -->
+[8.1.9]: https://github.com/PEM-FR/php-test-tools/compare/v7.4.16..v8.1.9
+<br/>
+
+---
+
+<br/>
+
+## [7.4.16] - 2020-02-03
+### Changed
+- chore: phpunit/phpunit (8.4.3 => 8.5.2): Downloading (100%)         
+- chore: squizlabs/php_codesniffer (3.5.2 => 3.5.4): Downloading (100%)         
+- chore: pdepend/pdepend (2.5.2 => 2.7.0): Downloading (100%)         
+- chore: phpmd/phpmd (2.7.0 => 2.8.1): Downloading (100%)         
+- chore: mayflower/php-codebrowser (2.0 => 2.3.1): Downloading (100%)         
+
+<!-- Links -->
+[7.4.16]: https://github.com/PEM-FR/php-test-tools/compare/v7.4.12..v7.4.16
