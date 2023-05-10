@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## [8.2.5] - 2023-05-10
+### Changed
+- No changes compared to 8.1.18
+
+<!-- Links -->
+[8.2.5]: https://github.com/PEM-FR/Repository/compare/v8.1.9.1..v8.2.5
+<br/>
+
+---
 ## [8.1.18] - 2023-05-10
 ### Changed
 - chore: Update changelog
