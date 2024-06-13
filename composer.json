@@ -4,19 +4,17 @@
   "license": "MIT",
   "minimum-stability": "stable",
   "require": {
-    "phpunit/phpunit": ">=9.5.2",
-    "pdepend/pdepend": ">=2.8.0",
-    "squizlabs/php_codesniffer": ">=3.5.8",
-    "phpmd/phpmd": ">=2.9.1",
+    "phpunit/phpunit": ">=9.6.19",
+    "pdepend/pdepend": ">=2.16.2",
+    "squizlabs/php_codesniffer": ">=3.10.1",
+    "phpmd/phpmd": ">=2.15.0",
     "phploc/phploc": ">=7.0.2",
-    "sebastian/phpcpd": ">=6.0.3",
-    "mayflower/php-codebrowser": ">=2.4.0",
-    "johnkary/phpunit-speedtrap": ">=3.3.0",
-    "php-coveralls/php-coveralls": ">=2.4.3"
+    "mayflower/php-codebrowser": ">=4.0.1",
+    "johnkary/phpunit-speedtrap": ">=4.0.1"
   },
   "config": {
     "platform": {
-      "php": "8.2.5"
+      "php": "8.3.8"
     }
   }
 }
