@@ -1,5 +1,25 @@
 # CHANGELOG
 
+## [8.3.8] - 2024-06-13
+### Changed
+  - chore: bump php version to 8.3.8
+  - chore: Removing guzzlehttp/guzzle (7.8.1)
+  - chore: Removing guzzlehttp/promises (2.0.2)
+  - chore: Removing guzzlehttp/psr7 (2.6.2)
+  - **chore: Removing php-coveralls/php-coveralls (v2.7.0)**
+  - chore: Removing psr/http-client (1.0.3)
+  - chore: Removing psr/http-factory (1.1.0)
+  - chore: Removing psr/http-message (2.0)
+  - chore: Removing ralouphie/getallheaders (3.0.3)
+  - chore: Removing symfony/stopwatch (v7.1.1)
+  - chore: Removing symfony/yaml (v7.1.1)
+  - chore: Upgrading psr/log (2.0.0 => 3.0.0)
+
+<!-- Links -->
+[8.3.8]: https://github.com/PEM-FR/Repository/compare/v8.2.6..v8.3.8
+<br/>
+
+---
 ## [8.2.6] - 2024-06-13
 ### Changed
   - chore: composer/pcre (3.1.0 => 3.1.4)
@@ -44,6 +64,11 @@
   - chore: theseer/tokenizer (1.2.1 => 1.2.3)
 
 
+<!-- Links -->
+[8.2.6]: https://github.com/PEM-FR/Repository/compare/v8.2.5..v8.2.6
+<br/>
+
+---
 ## [8.2.5] - 2023-05-10
 ### Changed
 - No changes compared to 8.1.18
