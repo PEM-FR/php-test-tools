@@ -10,7 +10,7 @@
     "phpmd/phpmd": ">=2.15.0",
     "phploc/phploc": ">=7.0.2",
     "mayflower/php-codebrowser": ">=4.0.1",
-    "johnkary/phpunit-speedtrap": ">=4.0.1"
+    "ergebnis/phpunit-slow-test-detector": ">=2.16.0"
   },
   "config": {
     "platform": {
