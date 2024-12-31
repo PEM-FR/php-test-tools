@@ -1,6 +1,31 @@
 # CHANGELOG
 
+## [8.4.1] - 2024-11-26
+⚠️ Removed unmaintained library **mayflower/php-codebrowser**
 
+ℹ️ Adds library **ergebnis/phpunit-slow-test-detector**
+### Changed
+  - **chore: ⚠️☠️ mayflower/php-codebrowser (4.0.1) -- Outdated Library**
+  - chore: ☠️ monolog/monolog (3.8.0)
+  - chore: ☠️ symfony/console (v6.4.15)
+  - chore: ☠️ symfony/polyfill-intl-grapheme (v1.31.0)
+  - chore: ☠️ symfony/polyfill-intl-normalizer (v1.31.0)
+  - chore: ☠️ symfony/string (v7.1.8)
+  - chore: ⬆️  nikic/php-parser (v5.3.1 => v5.4.0)
+  - chore: ⬆️  phpunit/phpunit (9.6.21 => 9.6.22)
+  - chore: ⬆️  squizlabs/php_codesniffer (3.11.1 => 3.11.2)
+  - chore: ⬆️  symfony/config (v7.1.7 => v7.2.0)
+  - chore: ⬆️  symfony/dependency-injection (v7.1.8 => v7.2.0)
+  - chore: ⬆️  symfony/deprecation-contracts (v3.5.0 => v3.5.1)
+  - chore: ⬆️  symfony/filesystem (v7.1.6 => v7.2.0)
+  - chore: ⬆️  symfony/service-contracts (v3.5.0 => v3.5.1)
+  - chore: ⬆️  symfony/var-exporter (v7.1.6 => v7.2.0)
+
+<!-- Links -->
+[8.4.1]: https://github.com/PEM-FR/Repository/compare/v8.3.14..v8.4.1
+<br/>
+
+---
 ## [8.3.14] - 2024-11-26
 ⚠️ **mayflower/php-codebrowser** _may_ be removed from the pack in the next version (8.4.1) as the library is not actively maintained and blocking other's upgrades.
 
